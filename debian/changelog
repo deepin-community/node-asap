@@ -1,0 +1,33 @@
+node-asap (2.0.6-4) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+  * Update standards version to 4.5.1, no changes needed.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Wed, 15 Sep 2021 09:24:33 +0100
+
+node-asap (2.0.6-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-asap: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 29 Aug 2021 01:49:28 +0100
+
+node-asap (2.0.6-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 12
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Use pkg-js-tools auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Tue, 18 Feb 2020 15:20:28 +0100
+
+node-asap (2.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #886519)
+
+ -- Manas kashyap <manaskashyaptech@gmail.com>  Sun, 07 Jan 2018 07:19:59 +0000
