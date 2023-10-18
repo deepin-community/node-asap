@@ -2,6 +2,7 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: asap
 Upstream-Contact: https://github.com/kriskowal/asap/issues
 Source: https://github.com/kriskowal/asap#readme
+ https://registry.npmjs.org/@types/asap
 
 Files: *
 Copyright: 2009-2014 Kris Kowal and Contributors
@@ -9,6 +10,10 @@ License: Expat
 
 Files: debian/*
 Copyright: 2018 Manas kashyap <manaskashyaptech@gmail.com>
+License: Expat
+
+Files: types-*/*
+Copyright: Microsoft Corporation
 License: Expat
 
 License: Expat

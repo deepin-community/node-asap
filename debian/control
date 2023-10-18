@@ -3,21 +3,19 @@ Section: javascript
 Priority: optional
 Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
 Uploaders: Manas kashyap <manaskashyaptech@gmail.com>
-Testsuite: autopkgtest-pkg-nodejs
-Build-Depends:
- debhelper-compat (= 13)
- , pkg-js-tools (>= 0.9.20~)
-Standards-Version: 4.5.1
-Homepage: https://github.com/kriskowal/asap#readme
-Vcs-Git: https://salsa.debian.org/js-team/node-asap.git
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+Standards-Version: 4.6.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-asap
+Vcs-Git: https://salsa.debian.org/js-team/node-asap.git
+Homepage: https://github.com/kriskowal/asap
+Testsuite: autopkgtest-pkg-nodejs
 Rules-Requires-Root: no
 
 Package: node-asap
 Architecture: all
-Depends:
- ${misc:Depends}
- , nodejs
+Depends: ${misc:Depends}
+Provides: ${nodejs:Provides}
 Multi-Arch: foreign
 Description: High-priority task queue for Node.js and browsers
  This module executes a task after the scheduled tasks are over
