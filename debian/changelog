@@ -1,3 +1,22 @@
+node-asap (2.0.6+~2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+  * Use dh-sequence-nodejs instead of pkg-js-tools
+  * Drop dependency to nodejs
+  * Use GitHub tags, not npm registry
+  * Embed typescript declarations and repack
+  * New upstream version 2.0.6+~2.0.0
+
+ -- Yadd <yadd@debian.org>  Wed, 22 Dec 2021 16:47:56 +0100
+
+node-asap (2.0.6-5) unstable; urgency=medium
+
+  * Team Upload
+  * Bump Standards-Version to 4.6.0 (no changes needed)
+  * Update debian/watch to use npm registry
+
+ -- Manas Kashyap <manaskashyaptech@gmail.com>  Fri, 12 Nov 2021 10:04:05 +0000
+
 node-asap (2.0.6-4) unstable; urgency=medium
 
   [ Debian Janitor ]
